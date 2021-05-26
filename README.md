@@ -45,6 +45,8 @@ The output time on the algorithm will be how the algorithms will be analyzed exp
 Finally, the method of sorting is controlled. For this experiment the sorting methods are bubble, insertion, merge, and quick.
 Further details on how each method works and how the program functions overall are included in comments in source code.
 
+To perform this full experiment, copy and paste the text in TestInput.txt into your terminal.
+
 ### Data Collected
 
 ![1](screenshots/1.png)
