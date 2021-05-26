@@ -24,7 +24,7 @@ algorithm - can be one of the following: bubble, insertion, merge, quick
 output - can be any file type, however it is recommended to create and use a folder titled output1 and is required to specify filetype (recommend .txt)
 
 Example execution:
-java Exercise1 random 1000 merge output1\output1.txt
+java Exercise1 random 1000 merge output1/output1.txt
 
 Troubleshooting:
 - If output file appears to be chinese characters, ensure encoding on text reader is set to UTF-8.
@@ -34,7 +34,7 @@ Troubleshooting:
   -Xms2048k -Xmx14336m -Xss65536k
 
 Example:
-java -Xms2048k -Xmx14336m -Xss65536k Exercise1 ascending 100000 quick output1\output1.txt
+java -Xms2048k -Xmx14336m -Xss65536k Exercise1 ascending 100000 quick output1/output1.txt
 
 ### Experimental Method
 
@@ -89,7 +89,7 @@ input - can be any text file, however files included are in input2 folder. Files
 output - can be any file type, however it is recommended create and use a folder titled output2 and is required to specify filetype (recommend .txt)
 
 Example execution:
-java Exercise2 input2\8words.txt output2\output2.txt
+java Exercise2 input2/8words.txt output2/output2.txt
 
 Troubleshooting:
 - If output file appears to be chinese characters, ensure encoding on text reader is set to UTF-8.
@@ -99,7 +99,7 @@ Troubleshooting:
 -Xms2048k -Xmx14336m -Xss65536k
 
 Example:
-java -Xms2048k -Xmx14336m -Xss65536k Exercise2 input2\100000words.txt output2\output2.txt
+java -Xms2048k -Xmx14336m -Xss65536k Exercise2 input2/100000words.txt output2/output2.txt
 
 ### Experimental Method
 
